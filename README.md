@@ -7,4 +7,4 @@ I Completed two technical task that is,
 2. Taking Screenshot in Selenium Webdriver.
 3. I attached a file to perform upload files in selenium.
 
-Note: Kindly check Master 
+Note: Kindly check Master branch
