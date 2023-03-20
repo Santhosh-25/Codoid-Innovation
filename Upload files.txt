@@ -1,0 +1,18 @@
+Uploading File in Selenium:-
+
+There many ways of uploading a file from a system to other application, we are going to use SendKeys type to upload a file using selenium webdriver.
+
+SendKeys Method:-
+
+Step 1: Inspect the element or the button provided for the file upload.
+Step 2: By using SendKeys, browse the path where the actual file to be uploaded is kept.
+Step 3: Place the path along with the file name in sendkeys so that the program is navigated to the mentioned path to fetch the file.
+
+
+Syntax:
+
+WebElement upload_file = driver.findElement(By.xpath("//input[@id='file_up']"));
+
+upload_file.sendKeys("C:/Users/Sonali/Desktop/upload.png");
+
+
